@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3766b770-0492-4edb-a332-4813b8bf3739" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/player/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/javatests/player/PlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/payments/PaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/payments/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/payments/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/payments/PaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/payments/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/javatests/payments/PaymentProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/javatests/player/PlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/javatests/player/PlayerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
@@ -43,35 +48,25 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": ""
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "C:/Users/USUARIO/IdeaProjects/JavaTestBasic"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.javatests.payments" />
       <recent name="com.example.javatests.player" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.javatests.payments" />
       <recent name="com.example.javatests.player" />
       <recent name="com.example.javatests.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest">
-    <configuration name="StringUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.javatests.util.StringUtilTest" />
-      <module name="javatests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.javatests.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PaymentProcessorTest">
     <configuration name="PasswordUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
@@ -82,6 +77,52 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.javatests.util" />
       <option name="MAIN_CLASS_NAME" value="com.example.javatests.util.PasswordUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTestBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javatests.payments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.javatests.payments" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javatests.payments.PaymentProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentProcessorTest.payment_is_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTestBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javatests.payments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.javatests.payments" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javatests.payments.PaymentProcessorTest" />
+      <option name="METHOD_NAME" value="payment_is_correct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTestBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javatests.player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.javatests.player" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javatests.player.PlayerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,27 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.javatests.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.javatests.util" />
-      <option name="MAIN_CLASS_NAME" value="com.example.javatests.util.StringUtilTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaymentProcessorTest" />
+        <item itemvalue="JUnit.PaymentProcessorTest.payment_is_correct" />
+        <item itemvalue="JUnit.PlayerTest (1)" />
         <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="JUnit.PasswordUtilTest" />
-        <item itemvalue="JUnit.StringUtilTest" />
-        <item itemvalue="Application.StringUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -136,5 +163,16 @@
       <updated>1663790561856</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
