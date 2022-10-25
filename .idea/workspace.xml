@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3766b770-0492-4edb-a332-4813b8bf3739" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/discounts/PriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/javatests/discounts/PriceCalculatorShould.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/javatests/reto1/StringUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/javatests/util/DateUtilLeapYearShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/reto2/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/reto2/RomanNumerals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/javatests/reto2/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/javatests/reto2/RomanNumeralsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javatests/reto1/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/reto1/StringUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USUARIO/IdeaProjects/JavaTestBasic&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/Documentos/GYG/Proyectos/Gismart-Parametros&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -59,25 +56,57 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.javatests.reto2" />
       <recent name="com.example.javatests.discounts" />
       <recent name="com.example.javatests.util" />
       <recent name="com.example.javatests.reto1" />
       <recent name="com.example.javatests.payments" />
-      <recent name="com.example.javatests.player" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PriceCalculatorShould">
-    <configuration name="DateUtilLeapYearShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RomanNumeralsTest">
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTestBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.javatests.util.*" />
+          <option name="PATTERN" value="com.example.javatests.reto2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.javatests.util" />
-      <option name="MAIN_CLASS_NAME" value="com.example.javatests.util.DateUtilLeapYearShould" />
+      <option name="PACKAGE_NAME" value="com.example.javatests.reto2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javatests.reto2.FizzBuzzTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.if_the_number_is_divisible_for_five_and_three" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTestBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javatests.reto2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.javatests.reto2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javatests.reto2.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="if_the_number_is_divisible_for_five_and_three" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.if_the_number_is_divisible_for_three" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTestBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javatests.reto2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.javatests.reto2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javatests.reto2.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="if_the_number_is_divisible_for_three" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,61 +126,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriceCalculatorShould.apply_discount_to_prices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanNumeralsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTestBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.javatests.discounts.*" />
+          <option name="PATTERN" value="com.example.javatests.reto2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.javatests.discounts" />
-      <option name="MAIN_CLASS_NAME" value="com.example.javatests.discounts.PriceCalculatorShould" />
-      <option name="METHOD_NAME" value="apply_discount_to_prices" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriceCalculatorShould.total_is_the_sum_of_prices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTestBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.javatests.discounts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.javatests.discounts" />
-      <option name="MAIN_CLASS_NAME" value="com.example.javatests.discounts.PriceCalculatorShould" />
-      <option name="METHOD_NAME" value="total_is_the_sum_of_prices" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriceCalculatorShould.total_zero_when_there_are_prices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTestBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.javatests.discounts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.javatests.discounts" />
-      <option name="MAIN_CLASS_NAME" value="com.example.javatests.discounts.PriceCalculatorShould" />
-      <option name="METHOD_NAME" value="total_zero_when_there_are_prices" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.example.javatests.reto2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javatests.reto2.RomanNumeralsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RomanNumeralsTest" />
+        <item itemvalue="JUnit.FizzBuzzTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.if_the_number_is_divisible_for_five_and_three" />
+        <item itemvalue="JUnit.FizzBuzzTest.if_the_number_is_divisible_for_three" />
         <item itemvalue="JUnit.PriceCalculatorShould" />
-        <item itemvalue="JUnit.PriceCalculatorShould.apply_discount_to_prices" />
-        <item itemvalue="JUnit.PriceCalculatorShould.total_is_the_sum_of_prices" />
-        <item itemvalue="JUnit.PriceCalculatorShould.total_zero_when_there_are_prices" />
-        <item itemvalue="JUnit.DateUtilLeapYearShould" />
       </list>
     </recent_temporary>
   </component>
@@ -176,5 +172,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/javatests/reto2/FizzBuzzTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/javatests/reto2/FizzBuzz.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
