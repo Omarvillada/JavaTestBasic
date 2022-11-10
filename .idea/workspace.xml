@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3766b770-0492-4edb-a332-4813b8bf3739" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/movies/model/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/movies/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/movies/model/data/MovieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/movies/model/service/MovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/javatests/movies/model/service/MovieServiceShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/movies/model/data/MovieRepositoryJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/javatests/movies/model/data/MovieRepositoryIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sql-scripts/test-data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javatests/movies/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javatests/movies/model/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documentos/GYG/Proyectos/Gismart-Parametros&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "D:/Documentos/GYG/Proyectos/Gismart-Parametros",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.javatests.movies.model.data" />
       <recent name="com.example.javatests.movies.model" />
       <recent name="com.example.javatests.payments" />
       <recent name="com.example.javatests.player" />
@@ -62,14 +66,14 @@
       <recent name="com.example.javatests.movies.model" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.javatests.movies.model.data" />
       <recent name="com.example.javatests.movies.model.service" />
       <recent name="com.example.javatests.reto2" />
       <recent name="com.example.javatests.discounts" />
       <recent name="com.example.javatests.util" />
-      <recent name="com.example.javatests.reto1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MovieServiceShould">
+  <component name="RunManager" selected="JUnit.MovieRepositoryIntegrationTest">
     <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTestBasic" />
       <extension name="coverage">
@@ -85,18 +89,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.if_the_number_is_divisible_for_five_and_three" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieRepositoryIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTestBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.javatests.reto2.*" />
+          <option name="PATTERN" value="com.example.javatests.movies.model.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.javatests.reto2" />
-      <option name="MAIN_CLASS_NAME" value="com.example.javatests.reto2.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="if_the_number_is_divisible_for_five_and_three" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.example.javatests.movies.model.data" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javatests.movies.model.data.MovieRepositoryIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieRepositoryIntegrationTest" />
         <item itemvalue="JUnit.MovieServiceShould" />
         <item itemvalue="JUnit.MovieServiceShould.return_movies_by_genre" />
         <item itemvalue="JUnit.RomanNumeralsTest" />
         <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="JUnit.FizzBuzzTest.if_the_number_is_divisible_for_five_and_three" />
       </list>
     </recent_temporary>
   </component>
